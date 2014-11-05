@@ -130,7 +130,6 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" remote="github" revision="cm-11.0" />
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
@@ -429,6 +428,7 @@
 
   <project path="device/samsung/i9300" name="yangjoo/device_samsung_i9300" remote="github" revision="sn" />
   <project path="device/samsung/smdk4412-common" name="yangjoo/device_samsung_smdk4412-common" remote="github" revision="sn" />
+  <project path="external/koush/Superuser" name="yangjoo/external_koush_Superuser" remote="github" revision="sn" />
   <project path="external/libselinux" name="yangjoo/external_libselinux" remote="github" revision="sn" />
   <project path="frameworks/base" name="yangjoo/frameworks_base" remote="github" revision="sn" />
   <project path="frameworks/native" name="yangjoo/frameworks_native" remote="github" revision="sn" />
