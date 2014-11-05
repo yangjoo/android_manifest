@@ -12,9 +12,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SuperNexus/android_build" remote="github" revision="kitkat" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SuperNexus/android_art" remote="github" revision="kitkat" />
   <project path="bionic" name="SuperNexus/android_bionic" remote="github" revision="kitkat" />
@@ -238,7 +235,6 @@
   <project path="external/zlib" name="SuperNexus/android_external_zlib" remote="github" revision="kitkat" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SuperNexus/android_frameworks_av" remote="github" revision="kitkat" />
-  <project path="frameworks/base" name="SuperNexus/android_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="SuperNexus/android_frameworks_compile_slang" remote="github" revision="kitkat" />
@@ -257,7 +253,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="SuperNexus/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="SuperNexus/android_frameworks_rs" remote="github" revision="kitkat" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -303,7 +298,6 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="SuperNexus/android_packages_apps_Camera2" remote="github" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -320,7 +314,6 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="SuperNexus/android_packages_apps_Launcher3" remote="github" revision="kitkat" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -331,7 +324,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SuperNexus/android_packages_apps_Settings" remote="github" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SuperNexus/android_packages_apps_SoundRecorder" remote="github" revision="kitkat" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -356,7 +348,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="SuperNexus/android_packages_services_Telephony" remote="github" revision="kitkat" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -435,13 +426,22 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <project path="build" name="yangjoo/android_build" remote="github" revision="sn" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
-  <project path="device/samsung/i9300" name="SuperNexus/android_device_samsung_i9300" remote="github" revision="kitkat" />
-  <project path="device/samsung/smdk4412-common" name="SuperNexus/android_device_samsung_smdk4412-common" remote="github" revision="kitkat" />
-  <project path="hardware/samsung" name="SuperNexus/android_hardware_samsung" remote="github" revision="kitkat" />
-  <project path="vendor/supernexus" name="SuperNexus/android_vendor_supernexus" remote="github" revision="kitkat" />
+  <project path="device/samsung/i9300" name="yangjoo/device_samsung_i9300" remote="github" revision="sn" />
+  <project path="device/samsung/smdk4412-common" name="yangjoo/device_samsung_smdk4412-common" remote="github" revision="sn" />
+  <project path="frameworks/base" name="yangjoo/frameworks_base" remote="github" revision="sn" />
+  <project path="frameworks/opt/telephony" name="yangjoo/frameworks_opt_telephony" remote="github" revision="sn" />
+  <project path="hardware/samsung" name="yangjoo/hardware_samsung" remote="github" revision="sn" />
+  <project path="packages/apps/Camera2" name="yangjoo/packages_apps_Camera2" remote="github" revision="sn" />
+  <project path="packages/apps/Mms" name="yangjoo/packages_apps_Mms" remote="github" revision="sn" />
+  <project path="packages/apps/SamsungServiceMode" name="yangjoo/packages_apps_SamsungServiceMode" remote="github" revision="sn" />
+  <project path="packages/apps/Settings" name="yangjoo/packages_apps_Settings" remote="github" revision="sn" />
+  <project path="packages/services/Telephony" name="yangjoo/packages_services_Telephony" remote="github" revision="sn" />
+  <project path="vendor/samsung" name="yangjoo/vendor_samsung" remote="github" revision="sn" />
+  <project path="vendor/supernexus" name="yangjoo/vendor_supernexus" remote="github" revision="sn" />
 
   <project path="kernel/samsung/smdk4412" name="yangjoo/kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
-  <project path="vendor/samsung" name="yangjoo/vendor_samsung" remote="github" revision="sn" /> 
 </manifest>
