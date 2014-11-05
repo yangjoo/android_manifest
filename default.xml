@@ -406,7 +406,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="SuperNexus/android_system_core" remote="github" revision="kitkat" />
   <project path="system/extras" name="SuperNexus/android_system_extras" remote="github" revision="kitkat" />
   <project path="system/media" name="SuperNexus/android_system_media" remote="github" revision="kitkat" />
   <project path="system/netd" name="SuperNexus/android_system_netd" remote="github" revision="kitkat" />
@@ -440,6 +439,7 @@
   <project path="packages/apps/SamsungServiceMode" name="yangjoo/packages_apps_SamsungServiceMode" remote="github" revision="sn" />
   <project path="packages/apps/Settings" name="yangjoo/packages_apps_Settings" remote="github" revision="sn" />
   <project path="packages/services/Telephony" name="yangjoo/packages_services_Telephony" remote="github" revision="sn" />
+  <project path="system/core" name="yangjoo/system_core" remote="github" revision="sn" />
   <project path="vendor/samsung" name="yangjoo/vendor_samsung" remote="github" revision="sn" />
   <project path="vendor/supernexus" name="yangjoo/vendor_supernexus" remote="github" revision="sn" />
 
