@@ -240,7 +240,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SuperNexus/android_frameworks_native" remote="github" revision="kitkat" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -432,6 +431,7 @@
   <project path="device/samsung/smdk4412-common" name="yangjoo/device_samsung_smdk4412-common" remote="github" revision="sn" />
   <project path="external/libselinux" name="yangjoo/external_libselinux" remote="github" revision="sn" />
   <project path="frameworks/base" name="yangjoo/frameworks_base" remote="github" revision="sn" />
+  <project path="frameworks/native" name="yangjoo/frameworks_native" remote="github" revision="sn" />
   <project path="frameworks/opt/telephony" name="yangjoo/frameworks_opt_telephony" remote="github" revision="sn" />
   <project path="hardware/samsung" name="yangjoo/hardware_samsung" remote="github" revision="sn" />
   <project path="packages/apps/Camera2" name="yangjoo/packages_apps_Camera2" remote="github" revision="sn" />
