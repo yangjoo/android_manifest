@@ -146,7 +146,6 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="SuperNexus/android_external_libpng" remote="github" revision="kitkat" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="SuperNexus/android_external_libselinux" remote="github" revision="kitkat" />
   <project path="external/libsepol" name="SuperNexus/android_external_libsepol" remote="github" revision="kitkat" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
@@ -432,6 +431,7 @@
 
   <project path="device/samsung/i9300" name="yangjoo/device_samsung_i9300" remote="github" revision="sn" />
   <project path="device/samsung/smdk4412-common" name="yangjoo/device_samsung_smdk4412-common" remote="github" revision="sn" />
+  <project path="external/libselinux" name="yangjoo/external_libselinux" remote="github" revision="sn" />
   <project path="frameworks/base" name="yangjoo/frameworks_base" remote="github" revision="sn" />
   <project path="frameworks/opt/telephony" name="yangjoo/frameworks_opt_telephony" remote="github" revision="sn" />
   <project path="hardware/samsung" name="yangjoo/hardware_samsung" remote="github" revision="sn" />
